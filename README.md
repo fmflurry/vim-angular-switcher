@@ -32,3 +32,8 @@ Designed to bring VSCode-style navigation convenience into Vim.
 
 ```vim
 Plug 'fmflurry/vim-angular-switcher'
+
+
+## 📄 License
+
+MIT
