@@ -26,6 +26,20 @@ Designed to bring VSCode-style navigation convenience into Vim.
 
 ---
 
+## 💻 How to use
+```vim
+" Cycle through all component files
+<leader>a
+" Go to ts
+<leader>ac
+" Go to html
+<leader>ah
+" Go to styles (scss/sass/css)
+<leader>as
+" Go to test (spec)
+<leader>at
+```
+
 ## 📦 Installation
 
 ### **vim-plug**
