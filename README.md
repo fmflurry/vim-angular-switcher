@@ -5,9 +5,9 @@ A lightweight Vim plugin to quickly switch between Angular component files:
 - `.component.ts`
 - `.component.html`
 - `.component.scss` / `.sass` / `.css`
-- `.component.spec.ts` (optional)
+- `.component.spec.ts` (test)
 
-Designed to bring VSCode-style navigation convenience into Vim.
+Designed to bring angular's components' files navigation convenience into Vim.
 
 ---
 
@@ -30,12 +30,16 @@ Designed to bring VSCode-style navigation convenience into Vim.
 ```vim
 " Cycle through all component files
 <leader>a
+
 " Go to ts
 <leader>ac
+
 " Go to html
 <leader>ah
+
 " Go to styles (scss/sass/css)
 <leader>as
+
 " Go to test (spec)
 <leader>at
 ```
